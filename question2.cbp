@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="3D_Ball_Physics" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="executable/3D_Ball_Physics" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="executable/3D_Ball_Physics" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="animation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="animation.h" />
+		<Unit filename="drawScene.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="drawScene.h" />
+		<Unit filename="lighting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lighting.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modelLoader.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modelLoader.h" />
+		<Unit filename="userInput.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="userInput.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1592332582 source:d:\school\20s1\ict289\exam\question2\animation.c
+	"animation.h"
+
+1592319149 d:\school\20s1\ict289\exam\question2\animation.h
+	<GL/freeglut.h>
+	<math.h>
+	"drawScene.h"
+
+1592340628 d:\school\20s1\ict289\exam\question2\drawscene.h
+	<GL/freeglut.h>
+	"animation.h"
+
+1597923348 source:d:\school\20s1\ict289\exam\question2\drawscene.c
+	"drawScene.h"
+
+1592342739 source:d:\school\20s1\ict289\exam\question2\lighting.c
+	"lighting.h"
+
+1592334799 d:\school\20s1\ict289\exam\question2\lighting.h
+	<GL/freeglut.h>
+
+1592334824 source:d:\school\20s1\ict289\exam\question2\main.c
+	<GL/freeglut.h>
+	<math.h>
+	"drawScene.h"
+	"userInput.h"
+	"animation.h"
+	"modelLoader.h"
+	"lighting.h"
+
+1592332303 d:\school\20s1\ict289\exam\question2\userinput.h
+	<GL/freeglut.h>
+	"animation.h"
+
+1589618072 d:\school\20s1\ict289\exam\question2\modelloader.h
+	<GL/freeglut.h>
+	<stdio.h>
+
+1589618072 source:d:\school\20s1\ict289\exam\question2\modelloader.c
+	<stdio.h>
+	"modelLoader.h"
+
+1592392483 source:d:\school\20s1\ict289\exam\question2\userinput.c
+	"userInput.h"
+
